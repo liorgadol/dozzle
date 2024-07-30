@@ -12,6 +12,6 @@ services:
     environment:
       - DOZZLE_LEVEL=info  # Optional: set the log level (debug, info, warn, error)
       - DOZZLE_FILTER=     # Optional: filter containers by name
-      - DOZZLE_TAILSIZE=300 # Optional: set the default number of log lines to display
-      - DOZZLE_USERNAME=   # Optional: set basic auth username
-      - DOZZLE_PASSWORD=   # Optional: set basic auth password
+#      - DOZZLE_TAILSIZE=300 # Optional: set the default number of log lines to display
+#      - DOZZLE_USERNAME=   # Optional: set basic auth username
+#      - DOZZLE_PASSWORD=   # Optional: set basic auth password
